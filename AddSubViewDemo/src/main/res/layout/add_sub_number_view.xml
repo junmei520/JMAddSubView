@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/add_sub_number_view_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_white_bg"
+        android:gravity="center"
+        android:text="-"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_white_bg"
+        android:gravity="center"
+        android:text="+"
+        android:textSize="18sp" />
+
+</LinearLayout>
